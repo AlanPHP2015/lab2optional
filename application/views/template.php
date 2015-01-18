@@ -3,29 +3,29 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>ZiZurz Website Template</title>
+	<title>{pagetitle}</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 	<div id="header">
 		<div class="section">
 			<div class="logo">
-				<a href="index.html">zizurz</a>
+				<a href="/">zizurz</a>
 			</div>
 			<ul>
-				<li class="selected">
+				<li {pagehome}>
 					<a href="/">home</a>
 				</li>
-				<li>
+				<li {pageabout}>
 					<a href="about">about</a>
 				</li>
-				<li>
+				<li {pagehairstyle}>
 					<a href="hairstyle">hairstyles</a>
 				</li>
-				<li>
+				<li {pagenews}>
 					<a href="news">news</a>
 				</li>
-				<li>
+				<li {pagecontact}>
 					<a href="contact">contact</a>
 				</li>
 			</ul>
